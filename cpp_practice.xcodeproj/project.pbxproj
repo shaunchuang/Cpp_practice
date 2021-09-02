@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F495EC1B26E10C1F00059A54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F495EC1A26E10C1F00059A54 /* main.cpp */; };
+		F495EC2626E10EB500059A54 /* BuildTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F495EC2426E10EB500059A54 /* BuildTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F495EC1726E10C1E00059A54 /* cpp_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		F495EC1A26E10C1F00059A54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F495EC2426E10EB500059A54 /* BuildTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildTree.cpp; sourceTree = "<group>"; };
+		F495EC2526E10EB500059A54 /* BuildTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BuildTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,35 @@
 		F495EC1926E10C1E00059A54 /* cpp_practice */ = {
 			isa = PBXGroup;
 			children = (
+				F495EC2326E10D8500059A54 /* Tree */,
+				F495EC2226E10C6B00059A54 /* LinkedList */,
+				F495EC2126E10C6100059A54 /* New Group */,
 				F495EC1A26E10C1F00059A54 /* main.cpp */,
 			);
 			path = cpp_practice;
+			sourceTree = "<group>";
+		};
+		F495EC2126E10C6100059A54 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F495EC2226E10C6B00059A54 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		F495EC2326E10D8500059A54 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				F495EC2426E10EB500059A54 /* BuildTree.cpp */,
+				F495EC2526E10EB500059A54 /* BuildTree.hpp */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F495EC2626E10EB500059A54 /* BuildTree.cpp in Sources */,
 				F495EC1B26E10C1F00059A54 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
